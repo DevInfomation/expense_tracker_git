@@ -6,3 +6,10 @@ const amountInput = document.getElementById('amount-input');
 
 const tbodyInherit = document.querySelector('.inherit');
 
+expenseBtn.addEventListener('click', e => {
+    e.preventDefault();
+
+    let newTr = document.createElement('tr');
+    newTr.classList.add('table-row-header');
+    tbodyInherit.append(newTr);
+});
