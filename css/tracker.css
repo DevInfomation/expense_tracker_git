@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    --primary-colour: #2ab23f;
+    --secondary-colour: #2e3238;
+    --third-colour: #363c42;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    display: fixed;
+}
+
+h2 {
+    color: var(--pDocumentDocumentrimary-colour);
+}
+
+.input-here {
+    margin: auto;
+    width: 680px;
+    margin-left: 600px;
+    padding: 10px;
+}
