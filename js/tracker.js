@@ -12,4 +12,19 @@ expenseBtn.addEventListener('click', e => {
     let newTr = document.createElement('tr');
     newTr.classList.add('table-row-header');
     tbodyInherit.append(newTr);
+
+    let newDataType = document.createElement('td');
+    let newDataName = document.createElement('td');
+    let newDataDate = document.createElement('td');
+    let newDataAmount = document.createElement('td');
+
+    newDataType.textContent = typeInput.value;
+    newDataName.textContent = nameInput.value;
+    newDataDate.textContent = dateInput.value;
+    newDataAmount.textContent = '$' + amountInput.value;
+
+    newTr.append(newDataType);
+    newTr.append(newDataName);
+    newTr.append(newDataDate);
+    newTr.append(newDataAmount);
 });
