@@ -28,3 +28,55 @@ h2 {
     margin-left: 600px;
     padding: 10px;
 }
+
+.input-field {
+    width: 250px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid black;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-left: 280px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px 10px 10px 10px;
+    background-color: var(--primary-colour);
+    color: #fff;
+    border: 2px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.main-table {
+    margin-top: 100px;
+}
+
+.table-here {
+    margin-left: 500px;
+}
+
+table, th {
+    border: 1px solid var(--secondary-colour);
+    border-collapse: collapse;
+    width: 200px;
+    background-color: var(--secondary-colour);
+    color: #eee;
+}
+
+th, td {
+    padding: 18px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+th {
+    width: 200px;
+}
+
+td {
+    background-color: var(--third-colour);
+}
